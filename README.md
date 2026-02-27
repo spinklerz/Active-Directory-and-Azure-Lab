@@ -115,6 +115,8 @@ Designed and deployed a hybrid environment lab integrating on-premises Active Di
 ### Virtual Machine
 ![Azure Virtual Machine](/images/Virtual_Machine.png)
 ![Azure WorkStation](/images/WorkStationAzure.png)
+![Azure WorkStation](/images/AzureConfig.png)
+![Azure WorkStation](/images/AzureTerminal.png)
 
 ## Tunnel Status pfSense
 
