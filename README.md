@@ -106,11 +106,18 @@ Designed and deployed a hybrid environment lab integrating on-premises Active Di
 ![Azure Resource Group](/images/Resource_Group.png)
 
 ### VPN Gateway
-![Azure Resource Group](/images/VPN_Gateway.png)
+![Azure VPN Gateway](/images/VPN_Gateway.png)
 
 ### Local Network Gateway
-![Azure Resource Group](/images/Local_Network_Gateway.png)
-![Azure Resource Group](/images/Connection_VPN_Local.png)
+![Azure Network Gateway](/images/Local_Network_Gateway.png)
+![Azure Connection VPN Local](/images/Connection_VPN_Local.png)
+
+### Virtual Machine
+![Azure Virtual Machine](/images/Virtual_Machine.png)
+![Azure WorkStation](/images/WorkStationAzure.png)
+
+## Tunnel Status pfSense
+
 
 ## Deployment Outcome
 
