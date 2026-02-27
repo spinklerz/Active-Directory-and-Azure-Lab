@@ -95,13 +95,22 @@ Designed and deployed a hybrid environment lab integrating on-premises Active Di
 ## Azure Configuration
 
 - Created a resource group called S2S-VPN
-
 - Created Virtual Network (VNet) and subnets
 - Deployed Azure VPN Gateway
 - Configured Local Network Gateway 
 - Defined Pre shared key and matching IPsec policies
 - Configured Virtual Machine [smalldisk] Windows Server 2025 Datacenter: Azure Edition Core - x64 Gen2
 - Verified tunnel status and successful data movement
+
+### Resource Group
+![Azure Resource Group](/images/Resource_Group.png)
+
+### VPN Gateway
+![Azure Resource Group](/images/VPN_Gateway.png)
+
+### Local Network Gateway
+![Azure Resource Group](/images/Local_Network_Gateway.png)
+![Azure Resource Group](/images/Connection_VPN_Local.png)
 
 ## Deployment Outcome
 
