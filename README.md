@@ -119,8 +119,7 @@ Designed and deployed a hybrid environment lab integrating on-premises Active Di
 ![Azure WorkStation](/images/AzureTerminal.png)
 
 ## Tunnel Status pfSense
-
-
+![Azure Virtual Machine](/images/IPsec.png)
 ## Deployment Outcome
 
 - On prem AD env and with remote machines added to the domain
