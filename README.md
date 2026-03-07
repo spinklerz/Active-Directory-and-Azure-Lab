@@ -141,7 +141,7 @@ Designed and deployed a hybrid environment lab integrating on-premises Active Di
 ### IPsec Phase Mismatch
 Resolved encryption and Diffie-Hellman Group inconsistencies between Azure and pfSense. Originally I used DH Group 2 on the Azure VPN and configured IPsec on pfsense with DH Group 14, which caused phase 1 to fail. I fixed this by checking the system logs and tracking the connection that detailed a DH group mismatch. When configuring IPsec on pfSense, I didn't know you had to configure phases 1 and 2 separately, and this caused a phase 2 failure.
 
-### DNS Forwarding Issues
+### Network Infra Issue
 Corrected internal DNS forwarder configuration to support hybrid name resolution. The big lesson here is I need to configure the router or the gateway first, or else the other machines will have trouble and inconsistencies. 
 
 ### Understanding of Virtual Networks
@@ -152,6 +152,9 @@ Modified the pfSense router to accept ICMP traffic as well as DNS traffic. This 
 
 ### RDP Azure 
 When a machine is added to a domain, I did not know that the RDP credentials change to a specific user. For example, I logged in via RDP on the credentials I configured on Azure, then when I added the machine to the domain, those credentials from Azure were no longer valid, and I needed to log in as an admin or user. 
+
+### Very Slow DNS resolution
+DNS resolution was very slow and timing out very often, so I decided to go to the DNS settings on the Domain Controller and noticed that the forwarders were not configured correct and reaching the proper forwarding location. 
 
 ## Lessons Learned
 
